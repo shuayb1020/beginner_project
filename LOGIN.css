@@ -1,0 +1,55 @@
+body{
+    background-image: url(techu.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-content: center;
+}
+h1{
+    color: white;
+    margin-top: 5%;
+}
+#general{
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    line-height: 40px;
+    /* padding: 10px; */
+    background-color: white;
+    padding-left: 3%;
+    margin-left: 38%;
+    width: 20%;
+    margin-top: 5%;
+    height: 50%;
+    padding-bottom: 3%;
+    margin-top: 4%;
+}
+
+button{
+    background-color: tomato;
+    padding-left: 40%;
+    padding-right: 40%;
+    padding-top:4%;
+    padding-bottom: 4%;
+    color: white;
+    margin-top: 5%;
+
+}
+img{
+    width: 50%;
+    padding-left: 12%;
+}
+input{
+    padding-right:35% ; 
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    opacity: 20%;
+}
+a{
+    margin-left: 15%;
+    text-decoration: none;
+    color: black;
+}
+button:hover{
+    background-color: coral;
+}

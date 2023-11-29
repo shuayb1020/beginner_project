@@ -1,0 +1,88 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #1A0A0C;
+    background-color: #FFE1E5;
+}
+#navbar{
+    background-color: #fc586e;
+    justify-content: space-between;
+    display: flex;
+    padding-left: 25px;
+    padding-right: 45px;
+    height: 40%;
+    text-align: center;
+    padding-top: 1%;
+}
+#container{
+    display: flex;
+}
+.picture{
+    justify-content: space-between;
+    display: flex;
+    text-align: center;
+}
+#dashboard a{
+    line-height: 65px;
+    color: #1A0A0C;
+    text-decoration: none;
+}
+hr{
+    color: #1A0A0C;
+    width: 110%;
+    margin: 0 -25px;
+    opacity: 20%;
+}
+#dashboard{
+    background-color: #FFBBC4;
+    padding-left: 2%;
+    width: 25%;
+    /* padding-right: 2%; */
+    border-bottom: solid 2px;
+}
+.profile{
+    background-color: #9b0016;
+    margin-top: 4%;
+    color:#FFE1E5 ;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 2%;
+}
+#general{
+    width: 100%;
+    padding: 0 5%;
+}
+.subject{
+    display: flex;
+    justify-content: space-between;
+    background-color: #fc586e;
+    margin-top: 1%;
+    padding-top: 0.02%;
+    padding-bottom: 0.01%;
+    padding-right: 2%;
+    padding-left: 2%;
+}
+.questions{
+    padding-left: 5%;
+    line-height: 35px;
+}
+.options{
+    padding-left: 3%;
+}
+.links{
+    padding-left: 5%;
+}
+ol{
+    padding-left: 1%;
+}
+.solutions{
+    margin-top: 6%;
+}
+.profilePics{
+    margin-top: 15%;
+    margin-bottom: 17%;
+    /* padding-right: 1%; */
+    /* padding-left: 2%; */
+    margin-right: 15px;
+}

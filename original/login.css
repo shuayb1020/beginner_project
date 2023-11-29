@@ -1,0 +1,157 @@
+body{
+    background-color:#FFE1E5;
+    align-items: center;
+    justify-content: center;
+	margin: 45px 25%;
+	color: #1A0A0C;
+	font-family: Segoe UI;
+}
+h1{
+	text-align: center;
+	align-items: center;
+	align-content: center;
+	font-weight: bold;
+	font-size: xx-large;
+	/* padding:5px 2px 1px 5px; */
+	background-color: rgb(34, 32, 32);
+    border-radius: 10px;
+    color: #fc586e;
+	margin-left: 36%;
+	margin-right: 36%;
+}
+.login{
+    background-color: #9B0016;
+	color: #FFE1E5;
+	width: 50%;
+	padding: 10px 0px 10px 25px;
+	font-size: xx-large;
+	text-decoration: none;
+}
+.register{
+	background-color:#FFE1E5;
+	color: #1A0A0C;
+	font-size: xx-large;
+	padding: 10px 0px 10px 25px;
+	text-decoration: none;
+	width: 50%;
+}
+#general{
+    display: flex; 
+	justify-content: space-between;
+}
+#form{
+ 	border: 2px solid #9B0016;
+	line-height: 40px;
+}
+input[type="text" i], input[type="password" i] {
+	border-radius:20px;
+	margin: 3px 4px;
+	width: 95%;
+	padding: 10px;
+	font-size: larger;
+	
+}
+a{
+	color: #1A0A0C;
+	font-size: small;
+}
+a:hover{
+	color: #744f55;
+}
+button{
+	color: #FFE1E5;
+	border-radius: 10px;
+	margin: 2px;
+	padding: 10px 20px;
+	background-color: #9B0016;
+	transition: 2s;
+}
+button:hover{
+	background-color: #572d33;
+}
+form{
+	background-color:#FFBBC4;
+	padding: 10px;
+	font-size: larger;
+}
+#input1{
+	margin: 20px;
+}
+#input2{
+	align-items: center;
+	text-align: center;
+}
+footer{
+	margin-top: 30px;
+}
+@media(max-width:1024px){
+	.register, .login{
+		padding: 5px 0px 5px 10px;
+		font-size: large;
+	}
+	body{
+		font-size: small;
+		margin-left: 100px;
+		margin-right: 100px;
+	}
+	input[type="text" i], input[type="password" i]{
+		padding: 5px;
+		margin: 1px 2px;
+		font-size: smaller;
+	}
+	
+}
+@media(max-width:470px){
+	.register, .login{
+		font-size: large;
+		padding:2px 0px 2px 5px;
+	}
+	body{
+		font-size: smaller;
+		margin-top: 20px;
+		margin-right: 5px;
+		margin-left: 5px;
+	}
+	input[type="text" i], input[type="password" i]{
+		padding: 5px;
+		margin: 0px 1px;
+		font-size: small;
+	}
+	form{
+		padding: 2px;
+	}
+}
+
+
+/* ..................... */
+@media(max-width:470px){
+	
+	body{
+		font-size:smaller;
+		margin-top: 20px;
+		margin-right: 5px;
+		margin-left: 5px;
+        text-align: center;
+        overflow: hidden;
+
+	}
+	.right{
+        display: none;
+    }
+    #upper, .lower{
+        /* height: 700px; */
+        padding: 150px 0;
+        width: 100%;
+
+    }
+    p{
+      display: block;  
+    }
+    .btn{
+        align-items: center;
+    }
+    .menu{
+        display: block;
+        padding-top: 5px;
+    }
+}
